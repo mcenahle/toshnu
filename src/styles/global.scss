@@ -1,0 +1,17 @@
+.official-banner {
+  background-color: #1b1b1b;
+  color: #fff;
+
+  .btn-link {
+    color: #73b3e7;
+
+    &:hover {
+      color: #a1d3ff;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 3px;
+    }
+  }
+}
