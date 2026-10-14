@@ -48,6 +48,10 @@ footer {
 
 a {
   text-decoration: none;
+  &:focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0.25rem;
+  }
 }
 
 .official-banner {
@@ -59,6 +63,12 @@ a {
 
     &:hover {
       color: #a1d3ff;
+    }
+
+    &:focus {
+      outline: 0.25rem solid #2491ff;
+      outline-offset: 0.25rem;
+      border-radius: 0;
     }
 
     &:focus-visible {
